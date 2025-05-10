@@ -4,7 +4,7 @@ import java.net.URL;
 
 
 
-public class Enviar {
+public class EnviarPrompt {
 
     public static void main(String[] args) {
         long startTime = System.currentTimeMillis(); // Início do cronômetro
@@ -16,6 +16,7 @@ public class Enviar {
             connection.setRequestMethod("POST"); 
             connection.setDoOutput(true);
             connection.setRequestProperty("Content-Type", "application/json");
+            connection.setRequestProperty("Accept-Encoding", "gzip, deflate");
             connection.setRequestProperty("x-api-key", "SUA_API_KEY"); // Substitua por sua chave real
 
             // Corpo JSON

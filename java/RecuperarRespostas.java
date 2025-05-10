@@ -2,7 +2,7 @@ import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class Recuperar{
+public class RecuperarRespostas{
 
     public static void main(String[] args) {
         long startTime = System.currentTimeMillis(); // Início do cronômetro
@@ -14,6 +14,7 @@ public class Recuperar{
             connection.setRequestMethod("GET"); // 
             connection.setDoOutput(true);
             connection.setRequestProperty("Content-Type", "application/json");
+            connection.setRequestProperty("Accept-Encoding", "gzip, deflate");
             connection.setRequestProperty("x-api-key", "SUA_API_KEY"); // Substitua por sua chave real
 
             // Código de resposta
