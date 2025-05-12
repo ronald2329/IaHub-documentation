@@ -38,4 +38,8 @@ npm run build
 
 ## 📥 Baixar Instalador automático para Windows
 
-[![Download](https://img.shields.io/badge/Download%20IaHub%20Setup%20Windows-blue?style=for-the-badge&logo=windows)](https://github.com/ronald2329/IaHub-documentation/releases/download/v1.0.0/IaHub-Setup-1.0.0.exe)
+<a href="https://github.com/ronald2329/IaHub-documentation/releases/download/v1.0.0/IaHub-Setup-1.0.0.exe" 
+   class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition inline-block"
+   download>
+   Baixar Instalador
+</a>
