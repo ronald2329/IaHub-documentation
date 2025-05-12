@@ -36,5 +36,5 @@ A API foi testada e funciona com os seguintes ambientes:
 4. Faça sua primeira requisição!
 
 ## Projetos relacionados
-[Gerador de imagens local no Windows](https://github.com/ronald2329/IaHub-documentation/releases/download/Windows/IaHub-Setup-1.0.0.exe)
+[Gerador de imagens local no Windows](https://github.com/ronald2329/IaHub-documentation/releases/download/Windows/IaHub.Setup.1.0.0.exe)
 
