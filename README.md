@@ -13,6 +13,7 @@
 - 📘 Exemplos de código prontos para uso
 - 📈 Gráficos por modelo e horário de uso
 - 🌍 Suporte à comunidade via **Discord**
+- 📝 Exemplos de código para situações reais
 
 ---
 
@@ -33,4 +34,7 @@ A API foi testada e funciona com os seguintes ambientes:
 2. Crie sua conta e obtenha sua **API Key** no painel do usuário
 3. Vá até a seção **Documentação** para ver todos os endpoints disponíveis via Swagger
 4. Faça sua primeira requisição!
+
+## Projetos relacionados
+[Gerador de imagens local no Windows](https://github.com/ronald2329/IaHub-documentation/releases/download/Windows/IaHub-Setup-1.0.0.exe)
 
