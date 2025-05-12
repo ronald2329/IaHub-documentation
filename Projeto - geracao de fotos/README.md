@@ -43,3 +43,4 @@ npm run build
 ```	
 
 ## Instalar aplicativo para Windows
+https://github.com/ronald2329/IaHub-documentation/releases/download/Windows/IaHub-Setup-1.0.0.exe
