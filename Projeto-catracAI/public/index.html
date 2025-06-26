@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema de Catraca - Reconhecimento Facial</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Sistema de Catraca</h1>
+
+  <p><a href="register.html">Cadastrar novo usuário</a></p>
+  <p><a href="panel.html">Painel adminstrativo</a></p>
+
+  <div class="input-container">
+    <label for="cameraSelect">Selecionar Câmera:</label>
+    <select id="cameraSelect"></select>
+  </div>
+  <div id="log">Aguardando detecção...</div>
+
+
+  <canvas id="canvas" width="640" height="480" style="border:1px solid #ccc;"></canvas>
+
+  <video id="video" width="640" height="480" autoplay muted></video>
+
+  <!-- Scripts -->
+  <script src="js/Face-api.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #333;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+video {
+  display: none; /* Make the video element invisible */
+  border: 2px solid #333;
+  border-radius: 8px;
+  transform: rotateY(180deg); /* Flip horizontally to appear as a mirror */
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+}
+
+canvas {
+  display: none; /* Make the canvas element invisible initially */
+  position: absolute;
+  transform: rotateY(180deg); /* Flip horizontally to match video */
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+}
+
+#log {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  width: 640px;
+  max-height: 200px;
+  overflow-y: auto;
+  border-radius: 8px;
+}
+
+#log h2 {
+  margin-top: 0;
+  color: #555;
+}
+
+#log ul {
+  list-style: none;
+  padding: 0;
+}
+
+#log li {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px dashed #eee;
+}
+
+#log li:last-child {
+  border-bottom: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+  margin-bottom: 10px;
+} 

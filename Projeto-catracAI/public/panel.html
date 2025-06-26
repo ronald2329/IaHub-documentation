@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Painel de Usuários - Sistema de Catraca</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #eee; }
+    button { margin-right: 5px; }
+    #logs { max-height: 200px; overflow-y: auto; background: #f9f9f9; padding: 10px; border: 1px solid #ccc; }
+  </style>
+</head>
+<body>
+  <h1>Painel de Usuários</h1>
+  <a href="register.html">Registrar novo usuário</a>
+  <a href="index.html">Terminal do sistema</a>
+  <table id="usersTable">
+    <thead>
+      <tr><th>ID</th><th>Nome</th><th>Ações</th></tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <h2>Logs</h2>
+  <div id="logs">Nenhum log selecionado.</div>
+
+  <script src="js/panel.js"></script>
+</body>
+</html>

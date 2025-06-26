@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Usuário - Sistema de Catraca</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Cadastrar Novo Usuário</h1>
+  <form id="registrationForm">
+    <label for="userName">Nome do Usuário:</label>
+    <input type="text" id="userName" required>
+    <button type="button" id="registerButton">Cadastrar</button>
+    <br><br>
+
+    <div id="log"></div>
+    <p><a href="index.html">Terminal da catraca</a></p>
+    <p><a href="panel.html">Painel adminstrativo</a></p>
+
+
+
+    <div class="input-container">
+      <label for="cameraSelect">Selecionar Câmera:</label>
+      <select id="cameraSelect"></select>
+    </div>
+
+    <canvas id="canvas" width="640" height="480"></canvas>
+    <video id="video" width="640" height="480" autoplay muted id="registerWebcam"></video>
+  </form>
+
+  <script src="js/Face-api.min.js"></script>
+  
+  <script src="js/register.js"></script>
+</body>
+</html> 
